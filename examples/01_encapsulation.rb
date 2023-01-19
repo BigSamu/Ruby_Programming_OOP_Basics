@@ -3,8 +3,6 @@
 # Encapsulation Example
 # -------------------------
 
-# NOTE:For instance vavriables:
-
 # a) attr_reader: variable -> create instance variable only accesible for 
 #                             reading purposes (no getter method needed)
 # b) attr_writer: variable -> create instance variable only accesible for 
@@ -12,9 +10,8 @@
 # c) attr_accesor: variable -> create instance variable accesible for reading 
 #                              and writting purposes (no getter and setter 
 #                              method needed)
-# d) @variable -> create private instance variable onot accesible for reading,
+# d) @variable -> create private instance variable not accesible for reading,
 #                 unless getter and setter methods are implemented
-
 
 # I) CityPark Class
 class CityPark
